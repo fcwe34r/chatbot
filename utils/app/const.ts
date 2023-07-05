@@ -5,17 +5,5 @@ export const DEFAULT_SYSTEM_PROMPT =
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://chimeragpt.adventblocks.cc';
 
-export const DEFAULT_TEMPERATURE = 
-  parseFloat(process.env.NEXT_PUBLIC_DEFAULT_TEMPERATURE || "1");
-
 export const OPENAI_API_TYPE =
   process.env.OPENAI_API_TYPE || 's8vYKw7B5T6tgV7oWa0gOKtaJG11aTtSAgWPW0n84xc';
-
-export const OPENAI_API_VERSION =
-  process.env.OPENAI_API_VERSION || '2023-03-15-preview';
-
-export const OPENAI_ORGANIZATION =
-  process.env.OPENAI_ORGANIZATION || '';
-
-export const AZURE_DEPLOYMENT_ID =
-  process.env.AZURE_DEPLOYMENT_ID || '';
